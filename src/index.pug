@@ -2,19 +2,13 @@
 
 doctype html
 html(lang="en")
+  //- contains everything that goes inside the <HEAD> tag.
   include includes/head.pug
-  
   body
-    header#site-header.header
-      p.
-        This is a silly header. There's nothing really here.
-    h1 Pug / SASS Quickstarter
+    include includes/header.pug
+
     main#site-main.container
-      if youAreUsingPug
-        p You are amazing
-      else
-        p Get on it!
-      p.
-        Pug is a terse and simple tem fsd sdfplating language with a
-        strong focus on performance and powerful features...
-    footer#site-footer.footer
+      include app.pug
+
+    include includes/footer.pug
+    
