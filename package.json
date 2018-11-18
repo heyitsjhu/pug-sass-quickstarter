@@ -1,11 +1,11 @@
 {
   "name": "pug-sass-quickstarter",
   "version": "0.0.1",
-  "description": "A quick HTML starter using PUG and SASS.",
+  "description": "Quickly setup your next static HTML project's development environment using PUG and SASS",
   "main": "index.js",
   "scripts": {
     "server": "browser-sync start -sw -f ./src --no-notify --port 9000 --startPath ./public",
-    "start": "npm-run-all -p server watch-pug watch-css",
+    "start": "npm-run-all -p server watch-css watch-pug",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-css": "node-sass-chokidar --watch ./src/scss/main.scss -o ./public",
     "watch-pug": "pug -wP ./src --out ./public"
