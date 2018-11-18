@@ -1,12 +1,15 @@
+//- index.pug
+
 doctype html
 html(lang="en")
-  head
-    title= pageTitle
-    script(type='text/javascript').
-      if (foo) bar(1 + 5)
+  include includes/head.pug
+  
   body
-    h1 Pug - node template engine
-    #container.col
+    header#site-header.header
+      p.
+        This is a silly header. There's nothing really here.
+    h1 Pug / SASS Quickstarter
+    main#site-main.container
       if youAreUsingPug
         p You are amazing
       else
@@ -14,3 +17,4 @@ html(lang="en")
       p.
         Pug is a terse and simple tem fsd sdfplating language with a
         strong focus on performance and powerful features...
+    footer#site-footer.footer
