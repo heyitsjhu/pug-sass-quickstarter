@@ -1,6 +1,6 @@
 # pug-sass-quickstarter
 
-Quickly setup your next static HTML project's development environment using (PUG)[https://pugjs.org/api/getting-started.html] and (SASS)[https://sass-lang.com/].
+Quickly setup your next static HTML project's development environment using [PUG](https://pugjs.org/api/getting-started.html) and [SASS](https://sass-lang.com/).
 
 ## Getting Started
 
@@ -26,17 +26,17 @@ That's it! You can now build your static site within the `src` folder and see th
 
 ## Technologies Used
 
-### PUG (formerly Jade)
+#### PUG (formerly Jade)
 
-Robust, elegant, feature rich template engine for Node.js. (Learn more about PUG)[https://pugjs.org/api/getting-started.html]
+Robust, elegant, feature rich template engine for Node.js. [Learn more about PUG](https://pugjs.org/api/getting-started.html)
 
-### SASS (CSS with superpowers)
+#### SASS (CSS with superpowers)
 
-Sass is the most mature, stable, and powerful professional grade CSS extension language in the world. (Learn more about SASS)[https://sass-lang.com/]
+Sass is the most mature, stable, and powerful professional grade CSS extension language in the world. [Learn more about SASS](https://sass-lang.com/)
 
-### BrowserSync
+#### BrowserSync (your indispensable test assistant)
 
-Time-saving synchronised browser testing. It’s wicked-fast and totally free. (Learn more about BrowserSync)[https://browsersync.io/]
+Time-saving synchronised browser testing. It’s wicked-fast and totally free. [Learn more about BrowserSync](https://browsersync.io/)
 
 ## Contributing
 
