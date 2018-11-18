@@ -11,6 +11,7 @@
     "watch-css": "node-sass-chokidar --watch ./src/scss/main.scss -o ./public",
     "watch-pug": "pug -wP ./src/index.pug --out ./public"
   },
+  "repository": "github:heyitsjhu/pug-sass-quickstarter",
   "author": "Johnny Hu <johnny@dreamistlabs.com>",
   "license": "MIT",
   "dependencies": {},
