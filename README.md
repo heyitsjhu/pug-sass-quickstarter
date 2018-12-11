@@ -10,7 +10,7 @@ Clone the repo
 git clone git@github.com:heyitsjhu/pug-sass-quickstarter.git
 ```
 
-Install the necessary dependencies
+Run `npm install` to install the necessary dependencies. This include packages like `pug`, `babal-core` and `node-sass-chokidar` which is needed in order for the scripts that compile the pug, js and scss files to run properly.
 
 ```
 npm install
