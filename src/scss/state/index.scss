@@ -1,0 +1,10 @@
+/*
+ * State Rules: https://smacss.com/book/type-state
+ * "A state is something that augments and overrides all other styles."
+ * 
+ * States are generally applied to the same element as a layout rule or applied to the same element as a base module class.
+ * 
+ * Use of !important is allowed, but only if it's absolutely necessary.
+ * State rules should be global in nature. Module-specific state rules should live with the module rules. 
+ * Prefix class names with is- (for example, .is-active and .is-collapsed).
+ */

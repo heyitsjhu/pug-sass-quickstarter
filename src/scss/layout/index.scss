@@ -1,0 +1,10 @@
+/*
+ * Layout Rules: https://smacss.com/book/type-layout
+ * "There is a distinction between layouts dictating the major and minor components of a page. The major components are referred to as Layout styles."
+ *
+ * Generally, a Layout style only has a single selector: a single ID or class name.
+ *
+ * Use of !important should be avoided.
+ * Use ID selectors sparingly and mindfully.
+ * Prefix class names with l- (for example, .l-fixed and .l-grid).
+ */
