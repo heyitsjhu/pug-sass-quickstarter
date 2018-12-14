@@ -1,0 +1,14 @@
+//- layouts/base-layout.pug
+
+doctype html
+html(lang="en")
+  //- contains everything that goes inside the <HEAD> tag.
+  include /components/head.pug
+  body
+    include /components/header.pug
+
+    main#site-main.container
+      block content
+
+    include /components/footer.pug
+    

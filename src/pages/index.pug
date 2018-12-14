@@ -1,14 +1,6 @@
-//- index.pug
+//- pages/index.pug
+extends /layouts/base.pug
 
-doctype html
-html(lang="en")
-  //- contains everything that goes inside the <HEAD> tag.
-  include /includes/head.pug
-  body
-    include /includes/header.pug
-
-    main#site-main.container
-      include /components/app.pug
-
-    include /includes/footer.pug
+block content
+  include /app.pug
     
