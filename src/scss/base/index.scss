@@ -6,3 +6,16 @@
  * Use of class or ID selectors should be avoided.
  * Use of !important should be avoided. 
  */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+}

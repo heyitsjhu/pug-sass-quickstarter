@@ -1,13 +1,13 @@
-# pug-sass-quickstarter
+# sassy-pug
 
-Quickly setup your next static HTML project's development environment using [PUG](https://pugjs.org/api/getting-started.html) and [SASS](https://sass-lang.com/).
+A quick way to setup your next static HTML [PUG](https://pugjs.org/api/getting-started.html) and [SASS](https://sass-lang.com/).
 
 ## Getting Started
 
 Clone the repo
 
 ```
-git clone git@github.com:heyitsjhu/pug-sass-quickstarter.git
+git clone git@github.com:heyitsjhu/sassy-pug.git
 ```
 
 Run `npm install` to install the necessary dependencies. This include packages like `pug`, `babal-core` and `node-sass-chokidar` which is needed in order for the scripts that compile the pug, js and scss files to run properly.

@@ -8,3 +8,8 @@
  * Use ID selectors sparingly and mindfully.
  * Prefix class names with l- (for example, .l-fixed and .l-grid).
  */
+
+#site-header {
+  width: 100%;
+  border-bottom: 0.1rem solid $primary-color;
+}

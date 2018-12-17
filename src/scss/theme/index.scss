@@ -4,3 +4,12 @@
  *
  * Separating the theme out into its own set of styles allows for those styles to be easily redefined for alternate themes.
  */
+
+$black: #000000;
+$maastricht-blue: #111c32;
+$goldenrod-orange: #cf860e;
+$gray: #bcbcbc;
+$light-gray: #d1d1d1;
+
+$primary-color: $maastricht-blue;
+$secondary-color: $goldenrod-orange;

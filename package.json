@@ -4,11 +4,11 @@
   "description": "A quick way to setup your next static HTML project using PUG and SASS",
   "main": "index.js",
   "scripts": {
-    "babel": "babel --watch src/js/main.js -o public/bundle.js",
+    "babel": "babel --watch src/js/main.js -o public/assets/js/main.js",
     "server": "browser-sync start -sw -f ./src --no-notify --port 9000 --startPath ./public",
     "start": "npm-run-all -p babel server watch-css watch-pug",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-css": "node-sass-chokidar --watch ./src/scss/main.scss -o ./public",
+    "watch-css": "node-sass-chokidar --watch ./src/scss/styles.scss -o ./public/assets/css",
     "watch-pug": "pug -wP -O pug-config.json ./src/pages --out ./public"
   },
   "repository": "github:heyitsjhu/sassy-pug",
