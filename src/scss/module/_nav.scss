@@ -1,0 +1,36 @@
+.nav {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding-left: 0;
+  height: 100%;
+  font-size: 1.4rem;
+  list-style: none;
+}
+.nav-item {
+  position: relative;
+  margin: 0 1rem;
+  padding: 1.5rem 0;
+  height: 100%;
+  text-align: center;
+  a {
+    &:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 0%;
+      border-bottom: 2px solid $secondary-color;
+      transition: width 0.2s ease-in;
+    }
+    &.active,
+    &:hover {
+      &:before {
+        width: 100%;
+        transition: width 0.2s ease-out;
+      }
+    }
+  }
+}

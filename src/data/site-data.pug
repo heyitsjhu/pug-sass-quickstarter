@@ -1,4 +1,24 @@
+//- While completely optional, this is basically a config/data file to store site information and content, 
+//- and provides an easy way to edit this information without having to sift through the templates and partials
+//- to make the changes. To expose the variable to the rest of the application, you can simply include this file
+//- at the root of your application. In this app, we include it in the base layout template file (/layouts/base.pug).
+//- 
+//- Once exposed, you can reference the data by its variable name. So, for example, you can use site.title to get the
+//= title or site.navigation to retrieve the array of navigation items.
+
 - 
   const site = {
-    title: "Sassy Pug"
+    title: "Sassy Pug",
+    navigation: [
+      {
+        label: "About", 
+        title: "Learn more about this project",
+        url: "about"
+      },
+      {
+        label: "Contact", 
+        title: "Find out how to get in touch with me",
+        url: "contact"
+      }
+    ]
   }

@@ -10,6 +10,19 @@
  */
 
 #site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  border-bottom: 0.1rem solid $primary-color;
+}
+
+#site-footer {
+  width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }

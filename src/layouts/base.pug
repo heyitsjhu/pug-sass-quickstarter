@@ -1,10 +1,15 @@
 //- layouts/base-layout.pug
+//-
+//- Layouts are essentially templates that can be reused throughout the application. 
+//- The base layout contains our basic HTML structure, like the head, header and footer sections.
+//- The main section contains a block used by child pages to inject content.
+//- More information on pug template inheritance: https://pugjs.org/language/inheritance.html
 
+//- Importing site data here makes it available to every sub-page or partial in the application.
 include /data/site-data.pug
 
 doctype html
 html(lang="en")
-  //- contains everything that goes inside the <HEAD> tag.
   include /components/head.pug
   body
     include /components/header.pug
@@ -13,4 +18,3 @@ html(lang="en")
       block content
 
     include /components/footer.pug
-    

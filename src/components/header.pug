@@ -1,5 +1,15 @@
 //- components/header.pug
+//-
+//- Below is an example of using an each loop in pug to iterate through a list of items, 
+//- called site.navigation, to generate our header's nav menu. Reference: https://pugjs.org/language/iteration.html
+//-
+//- Notice site.navigation? That's a variable declared in the /data/site-data.pug file, which is being included
+//- in the base layout template file (/layouts/base.pug), making it available to all partials included in the file
+//- and in child pages that extend the template file.
 
-header#site-header.header
-  p.
-    This is a silly header. There's nothing really here.
+header#site-header.header.container
+  a.nav-logo(href="", title="Go to the home page") I'm a logo!
+  ul#site-nav.nav
+    each navItem in site.navigation
+      li.nav-item
+        a(href=navItem.url, title=navItem.title)= navItem.label

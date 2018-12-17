@@ -14,5 +14,9 @@
  * Add class names to elements to increase the semantics of what those elements mean and remove any ambiguity.
  * Use child or descendant selectors only when element selectors will and can be predictable (for example, .module span).
  * Utilize sub-classing instead of referencing the parent element to reduce specificity (for example, .dialog-subclass vs #parent .dialog).
- * Module-specific state rules should include the module name in its class name (for example, .is-dialog-active versus .is-active).
+ * Module-specific state rules should include the module name in its class name (for example, .is-dialog-active vs .is-active).
  */
+
+@import 'header';
+@import 'nav';
+@import 'footer';
